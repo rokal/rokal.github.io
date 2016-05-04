@@ -1,0 +1,42 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 120px;
+}
+
+footer {
+  position: absolute;
+  height:120px;
+  bottom:0;
+  width:100%;
+  
+}
+.bottomBox{
+ height:100%;
+}
+
+.bottomBox .footerBox div, .bottomBox .footerBox ul{
+  display:inline-block
+}
+.headerBox, .footerBox{
+   padding:0 2em;
+}
+.headerBox{
+  height:35%;
+}
+.footerBox{
+  height:65%;
+}
+
+/* Content of the tabs
+-------------------------------------------------- calc(100vh-220px); */
+#about,
+#background,
+#experiences{
+  max-height: 70vh;
+  overflow:scroll;
+}
