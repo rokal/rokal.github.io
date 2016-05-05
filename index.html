@@ -20,13 +20,13 @@
       <div class="container" id="navbar-header" >
         <ul class="nav nav-tabs  collapse navbar-toggleable-xs" role="tablist" id="navElements">
           <li class="nav-item">
-            <a class="nav-link active" data-toggle="tab" role="tab" href="#about">About</a>
+            <a class="nav-link active" data-toggle="tab" role="tab" href="#about">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" role="tab" href="#background">Background</a>
+            <a class="nav-link" data-toggle="tab" role="tab" href="#background">My Background</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" role="tab" href="#experiences">Experiences</a>
+            <a class="nav-link" data-toggle="tab" role="tab" href="#experiences">My Experiences</a>
           </li>
           
         </ul>
@@ -36,27 +36,28 @@
     </nav>
     <div class="container" >
       
-      <div class="tab-content">
+      <div class="tab-content m-t-2">
         <div class="tab-pane fade in active" id="about" role="tabpanel">
-         <p> On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore qu'à leur phase de construction. Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement (histoire d'y rajouter de petits clins d'oeil, voire des phrases embarassantes).
-           </p>
-          
-          <p>
-            On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore qu'à leur phase de construction. Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement (histoire d'y rajouter de petits clins d'oeil, voire des phrases embarassantes).
-          </p>
-          
-          <p>
-            On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore qu'à leur phase de construction. Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement (histoire d'y rajouter de petits clins d'oeil, voire des phrases embarassantes).
-          </p>
-
-          <p>
-            On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore qu'à leur phase de construction. Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement (histoire d'y rajouter de petits clins d'oeil, voire des phrases embarassantes).
-          </p>
-          
-          <p>
-            On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore qu'à leur phase de construction. Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement (histoire d'y rajouter de petits clins d'oeil, voire des phrases embarassantes).
-          </p>
-        
+          <div class="row text-muted">
+            <div class="col-lg-4 col-lg-push-4 text-justify">
+              <h3>Welcome !</h3>
+              <hr class="m-t-1">
+              <p>My name is <span class="font-weight-bold">Roland Stanislas Kalmogo</span>. I'm currently enrolled in a master degree in computer science at University Laval. Software development is something I quickly fell in love with when I started writing my first algorithms. I am always learning and working on some personal projects so that one day, the whole world will use one my artwork. This website is about me and just about me. <br><span class="display-4"> <i class="ion-happy-outline"></i> </span></p>
+              
+            
+            </div>
+            <div class="col-lg-4 col-lg-pull-4">
+              <h3>What I care about</h3>
+              <hr class="m-t-1">
+              
+            </div>
+            <div class="col-lg-4">
+              <h3 ><i class="ion-heart"><img class="bf" src="img/burkina_faso_640.png" alt="Burkina Faso"></i></h3>
+              <hr class="m-t-1">
+              <p></p>
+              
+            </div>
+          </div>        
         </div>
         <div class="tab-pane fade" id="background" role="tabpanel">...</div>
         <div class="tab-pane fade" id="experiences" role="tabpanel">...</div>
@@ -105,11 +106,11 @@
     <script src="js/jquery.nicescroll.min.js"></script>
     
     <script>
-        $(document).ready(
-            function() {  
-              $("#about").niceScroll({cursorcolor:"#00F"});
-            }
-        );
+//        $(document).ready(
+//            function() {  
+//              $("#about").niceScroll({cursorcolor:"#00F"});
+//            }
+//        );
       $(function(){
         $('[data-toggle="tooltip"]').tooltip();
       });

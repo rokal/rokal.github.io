@@ -37,8 +37,8 @@ footer {
 #about,
 #background,
 #experiences{
-  max-height: 55vh;
-  overflow-y:scroll;
+/*  max-height: 55vh;*/
+/*  overflow-y:scroll;*/
 }
 
 /* profile images
@@ -67,4 +67,6 @@ footer {
 -moz-box-shadow:    0px 0px 25px 0px rgba(40, 72, 61, 1);
 box-shadow:         0px 0px 25px 0px rgba(40, 72, 61, 1);
 }
-
+.bf{
+  height:2rem;
+}
