@@ -9,6 +9,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
     <link rel="stylesheet" href="css/custom.css">
+    <!-- Ionocons links -->
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" >
   </head>
   <body>
     <nav class="navbar ">
@@ -65,19 +67,26 @@
     <!-- footer -->
      <footer>
        <div class="myPicture">
+         
        </div>
        <div class="bottomBox">
          <div class="headerBox">
-           <p>Hello</p>
          </div>
          <div class="footerBox  bg-info">
-             <div class="adresseMail">
+             <div class="adresseMail pull-sm-left m-t-2  hidden-xs-down">
+               <p class="label label-primary"><i class="ion-android-mail"></i> rskalmogo@gmail.com</p>
              </div>
-             <ul>
-              <li></li>
-               <li></li>
-               <li></li>
-             </ul>
+           <ul class="nav nav-inline m-t-2 pull-sm-right">
+              <li class="nav-item">
+                <a class="nav-link" href="https://ca.linkedin.com/in/roland-kalmogo-aa5ba1108" data-toggle="tooltip" data-placement="top" title="linkedIn profile"><img class="img img-fluid img-rounded profile" src="img/linkedin1.png"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://teamtreehouse.com/rolandkalmogo"><img class="img img-fluid img-circle profile" src="img/treehouse-icon.png"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://www.doyoubuzz.com/roland-kalmogo"><img class="img img-fluid img-circle profile" src="img/doyoubuzz.png"></a>
+              </li>
+            </ul>
          </div>
          
        </div>
@@ -96,6 +105,9 @@
               $("#about").niceScroll({cursorcolor:"#00F"});
             }
         );
+      $(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+      });
     </script>
   </body>
 </html>

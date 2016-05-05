@@ -5,15 +5,15 @@ html {
   min-height: 100%;
 }
 body {
-  margin-bottom: 120px;
+  margin-bottom: 20vh;
 }
 
 footer {
   position: absolute;
-  height:120px;
+  height:20vh;
   bottom:0;
   width:100%;
-  
+  font-size:1.65em;
 }
 .bottomBox{
  height:100%;
@@ -33,10 +33,17 @@ footer {
 }
 
 /* Content of the tabs
--------------------------------------------------- calc(100vh-220px); */
+--------------------------------------------------  */
 #about,
 #background,
 #experiences{
   max-height: 70vh;
-  overflow:scroll;
+  overflow-y:scroll;
 }
+
+/* profile images
+-------------------------------------------------- */
+.profile{
+  width:30px;
+}
+
