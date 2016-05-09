@@ -76,3 +76,10 @@ box-shadow:         0px 0px 25px 0px rgba(40, 72, 61, 1);
 .media-left img{
   height:4rem;
 }
+
+.custom-card-img{
+  height:1.5rem;
+}
+.custom-card .blockquote-footer, .custom-card .blockquote-footer a{
+  color:#fff;
+}
