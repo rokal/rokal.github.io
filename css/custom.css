@@ -1,6 +1,10 @@
 /* Sticky footer styles
 -------------------------------------------------- */
+*{
+  font-family: 'Trirong', serif;
+}
 html {
+  
   position: relative;
   min-height: 100%;
 }
