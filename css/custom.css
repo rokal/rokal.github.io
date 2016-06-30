@@ -3,6 +3,9 @@
 *{
   font-family: 'Trirong', serif;
 }
+.title{
+  text-shadow: 4px 4px 4px #aaa;
+}
 html {
   
   position: relative;
